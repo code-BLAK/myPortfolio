@@ -1,12 +1,13 @@
 import Navbar from './assets/Navbar'
-import Hero from './assets/Hero'
+import Main from './assets/Main'
 import './App.css'
 
 function App() {
+  console.log('rendering App Component...');
   return (
     <div>
       <Navbar />
-      <Hero />
+      <Main />
     </div>
   )
 }
