@@ -11,15 +11,15 @@ const Navbar = () => {
     }
       
     return (
-    <div className="bg-[#000000] items-center w-full rounded-t-2xl">
-        <div className="flex items-center justify-between h-16 max-w-[1240px] mx-auto px-4">
+    <div className="items-center w-full bg-white rounded-t-2xl">
+        <div className="flex items-center justify-between h-16 max-w-[1240px] mx-auto px-4 bg-black rounded-t-2xl">
             <h1 className='text-[#278888] text-bold text-2xl font-extrabold'>Adekun<span className="text-white">le Ader</span>ohunbi</h1>
-            <ul className="hidden p-2 cursor-pointer md:flex">
-                <li className="p-4 font-bold">About</li>
-                <li className="p-4 font-bold">Contact</li>
-                <li className="p-4 font-bold">Projects</li>
-                <li className="p-4 font-bold nav-btn">My Github</li>
-                <li className="p-4 font-bold border-2 bg-[#002626] text-white rounded-full nav-btn items-center">My Resume</li>
+            <ul className="hidden p-1 mx-2 text-white cursor-pointer md:flex">
+                <li className="p-4 mx-2 font-bold btn-border">Home</li>
+                <li className="p-4 font-bold btn-border">Services</li>
+                <li className="p-4 font-bold btn-border">Projects</li>
+                <li className="p-4 font-bold btn-border">About</li>
+                <li className="p-4 font-bold border-2 bg-[#278888] text-white rounded-full nav-btn items-center hover:border-2-[#278888]">Ask me Anything</li>
             </ul>
             <div onClick={handleNav} className="block md:hidden">
                 {!Nav ? <RiCloseLargeFill className="text-2xl text-[#ffffff] cursor-pointer size-8" /> : <FaBars className="text-2xl text-[#ffffff] cursor-pointer size-8" />}

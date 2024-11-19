@@ -4,3 +4,10 @@
   border-color: #002626;
   
 }
+
+.btn-border:hover {
+  border-color: #002626;
+  border-radius: 28px;
+  background:#fff;
+  color: #000;
+}
